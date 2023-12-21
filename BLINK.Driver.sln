@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLINK.API", "BLINK.API.csproj", "{611BA57E-0B2C-41CA-A648-7ADBA003C1EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLINK.Domain", "..\BLINK.Domain\BLINK.Domain.csproj", "{885AFB34-0A62-4C01-A68C-F823C4F42809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLINK.Application", "..\BLINK.Application\BLINK.Application.csproj", "{09FE937F-1620-488C-989D-BF72BCBB75F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLINK.Infrastructure", "..\BLINK.Infrastructure\BLINK.Infrastructure.csproj", "{F5EB7610-3BA9-4F26-A5BB-5DC1A485881A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLINK.Tests", "..\BLINK.Tests\BLINK.Tests.csproj", "{8E8AE4ED-7AE0-47F5-B2AE-15F2DE5D9D85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{611BA57E-0B2C-41CA-A648-7ADBA003C1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611BA57E-0B2C-41CA-A648-7ADBA003C1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611BA57E-0B2C-41CA-A648-7ADBA003C1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611BA57E-0B2C-41CA-A648-7ADBA003C1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885AFB34-0A62-4C01-A68C-F823C4F42809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885AFB34-0A62-4C01-A68C-F823C4F42809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885AFB34-0A62-4C01-A68C-F823C4F42809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885AFB34-0A62-4C01-A68C-F823C4F42809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09FE937F-1620-488C-989D-BF72BCBB75F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FE937F-1620-488C-989D-BF72BCBB75F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FE937F-1620-488C-989D-BF72BCBB75F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FE937F-1620-488C-989D-BF72BCBB75F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5EB7610-3BA9-4F26-A5BB-5DC1A485881A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EB7610-3BA9-4F26-A5BB-5DC1A485881A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5EB7610-3BA9-4F26-A5BB-5DC1A485881A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EB7610-3BA9-4F26-A5BB-5DC1A485881A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E8AE4ED-7AE0-47F5-B2AE-15F2DE5D9D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8AE4ED-7AE0-47F5-B2AE-15F2DE5D9D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8AE4ED-7AE0-47F5-B2AE-15F2DE5D9D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8AE4ED-7AE0-47F5-B2AE-15F2DE5D9D85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAF27399-03A5-4B40-BAD7-4EB48C79E511}
+	EndGlobalSection
+EndGlobal
